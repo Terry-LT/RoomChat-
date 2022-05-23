@@ -1,13 +1,17 @@
 To set up
 
-1.composer install/
-2 composer dump-autoload/
-3.touch .env/
-4.Coppy text from .env.example to .env/
-5.php artisan key:generate/
-6.php artisan cache:clear /
-7.php artisan config:clear/
-8.set up database (Mysql etc...)/
-9.php artisan migrate/
-10.php artisan serve/
-11.npm run watch/
+
+<ol>
+<li>composer install</li>
+<li>composer dump-autoload</li>
+<li>touch .env</li>
+<li>Coppy text from .env.example to .env</li>
+<li>php artisan key:generate</li>
+<li>php artisan cache:clear</li>
+<li>php artisan config:clear</li>
+<li>set up database (Mysql etc...)</li>
+<li>php artisan migrate</li>
+<li>php artisan serve</li>
+<li>npm run watch</li>
+</ol>
+
